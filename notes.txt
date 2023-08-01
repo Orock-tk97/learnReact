@@ -1,0 +1,42 @@
+BABEL transpiler to convert jsx to js that can be undertood by browsers
+jsx is an extesnion of js that allow us to write react code in a more simple way it is not html
+we can only use integer strings in jsx and not booleans
+
+a component is a function that returns a jsx template that is exported at the end of the file
+
+
+only anonymous functions can be placed when using 
+buttons such that the refrennce is passed and not he button itself
+when we handle an event we automatically gain as reference the 1st object called e
+
+components are stateless so for us to make dynamic content display we must rmploy theuse of us
+
+when dynamically creating elements we must use ids for react to understand it in the dom
+example when iterating through an object to print it out the content is dynamica and react must
+be able to disntingusih it
+
+// each top level porperty acts as a resource and each resource provides endpoints for the database to act with it ()
+// use json server  package to watch the file an wrap it with some endpoints
+// install json serve lcally or use npx to run code form the web adn it will still wtach our file
+
+
+use-effect and usestate will always trigger the re-rendering of the virtual DOM
+use state for changing state while useeefect for runnig code during a render
+
+
+we use hook dependcies  to specify the array that we want to affect while re-rendering the
+state of react
+
+use effect is usually used to fetch data because for learning puposes we donot keep
+data in objects but meta data we rather keep them in databases and use API's to fetch
+ them when we call the use-effect function
+
+
+learn more about json server
+
+ENDPOINTS THAT WE WILL BE USING IN THIS PROJECT
+
+/blogs        GET Fetch all blogs
+/blogs/{id}   GET Fetch a single blog
+/blogs        POST Add a new blog
+/blogs/{id}   DELETE Delete a blog
