@@ -40,3 +40,17 @@ ENDPOINTS THAT WE WILL BE USING IN THIS PROJECT
 /blogs/{id}   GET Fetch a single blog
 /blogs        POST Add a new blog
 /blogs/{id}   DELETE Delete a blog
+
+setTimeout(()=>{functions to execute},1000)
+This is used to delay the "functions to execute" for 1000ms=1s which was used
+in the tutorial video to simulate the serve taking time to load using the 
+use effect function
+
+
+Custom hooks in React are functions that allow you to reuse stateful logic across multiple components. They enable you to extract complex logic into a separate function, making it more organized and shareable among different parts of your application. Custom hooks are a powerful way to keep your components lean and focused on rendering UI, while moving the logic into a separate place for better maintainability.
+
+To create a custom hook, you need to follow two rules:
+
+Name: The function name should start with "use" to indicate that it's a custom hook and to comply with the rules of Hooks in React.
+
+Logic: The custom hook can use built-in React Hooks like useState, useEffect, useContext, etc., or other custom hooks.
